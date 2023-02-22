@@ -535,7 +535,7 @@ module PhotoIonization
         sb = sb * TableStrings.center(10, TableStrings.inUnits("energy"); na=3)
         sa = sa * TableStrings.center(10, "omega"; na=3);              
         sb = sb * TableStrings.center(10, TableStrings.inUnits("energy"); na=2)
-        sa = sa * TableStrings.center(12, "Energy e_v"; na=3);              
+        sa = sa * TableStrings.center(12, "Energy e_q"; na=3);              
         sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=4)
         sa = sa * TableStrings.flushleft(57, "List of multipoles, gauges, kappas and total symmetries"; na=4)  
         sb = sb * TableStrings.flushleft(57, "partial (multipole, gauge, total J^P)                  "; na=4)
@@ -589,7 +589,7 @@ module PhotoIonization
         sb = sb * TableStrings.center(12,TableStrings.inUnits("energy"); na=4)
         sa = sa * TableStrings.center(12, "omega"     ; na=4)             
         sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=4)
-        sa = sa * TableStrings.center(12, "Energy e_p"; na=3)             
+        sa = sa * TableStrings.center(12, "Energy e_q"; na=3)             
         sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=3)
         sa = sa * TableStrings.center(10, "Multipoles"; na=1);                              sb = sb * TableStrings.hBlank(13)
         sa = sa * TableStrings.center(30, "Cou -- Cross section -- Bab"; na=3)      
@@ -634,7 +634,7 @@ module PhotoIonization
             sb = sb * TableStrings.center(12,TableStrings.inUnits("energy"); na=4)
             sa = sa * TableStrings.center(12, "omega"     ; na=4)             
             sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=4)
-            sa = sa * TableStrings.center(12, "Energy e_p"; na=3)             
+            sa = sa * TableStrings.center(12, "Energy e_q"; na=3)             
             sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=3)
             sa = sa * TableStrings.center(10, "Multipoles"; na=1);                              sb = sb * TableStrings.hBlank(13)
             sa = sa * TableStrings.center( 7, "M_f"; na=1);                                     sb = sb * TableStrings.hBlank(11)
@@ -690,7 +690,7 @@ module PhotoIonization
             sb = sb * TableStrings.center(12,TableStrings.inUnits("energy"); na=4)
             sa = sa * TableStrings.center(12, "omega"     ; na=4)             
             sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=4)
-            sa = sa * TableStrings.center(12, "Energy e_p"; na=3)             
+            sa = sa * TableStrings.center(12, "Energy e_q"; na=3)             
             sb = sb * TableStrings.center(12, TableStrings.inUnits("energy"); na=3)
             sa = sa * TableStrings.center(10, "Multipoles"; na=1);                              sb = sb * TableStrings.hBlank(13)
             sa = sa * TableStrings.center(10, "k    q"; na=4);                                  sb = sb * TableStrings.hBlank(11)
